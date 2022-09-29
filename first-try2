@@ -1,0 +1,62 @@
+import os, platform
+
+ 
+
+try:
+
+ 
+
+        import requests
+
+ 
+
+except:
+
+ 
+
+        os.system('pkg install play-audio')
+
+ 
+
+ 
+
+ 
+
+import requests
+
+ 
+
+bit = platform.architecture()[0]
+
+ 
+
+if bit == "64bit":
+
+ 
+
+        from dipu import imtiaz
+
+ 
+
+        imtiaz()
+
+ 
+
+ 
+
+ 
+
+elif bit == "32bit":
+
+ 
+
+        from dipu2 import imtiaz
+
+ 
+
+ 
+
+        imtiaz()
+
+ 
+
